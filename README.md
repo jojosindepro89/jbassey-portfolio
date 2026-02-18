@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Joseph Bassey Portfolio
 
-## Getting Started
+A futuristic, premium, high-performance personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Getting Started
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Tech Stack**: Next.js 15 (App Router), TypeScript, Tailwind CSS v4.
+- **Styling**: Black & Gold premium theme, responsive design, glassmorphism effects.
+- **Content**:
+  - **Projects**: Manage via `src/data/projects.ts`
+  - **Training**: Manage via `src/data/training.ts`
+  - **Experience**: Manage via `src/components/sections/timeline.tsx`
+  - **Blog**: MDX files in `src/content/blog/`
+- **Modules**:
+  - **Home**: Hero, Skills, Projects Preview, Contact CTA.
+  - **About**: Profile, "What I Do", Timeline.
+  - **Projects**: Filterable grid, Homework section.
+  - **Training**: Pricing cards, FAQ, Testimonials.
+  - **Blog**: Searchable list, MDX rendering.
+  - **Contact**: Functional form wrapper, contact info.
 
-## Learn More
+## 📝 How to Update Content
 
-To learn more about Next.js, take a look at the following resources:
+### 1. General Info & Socials
+Edit `src/config/site.ts` to update the name, description, and social links.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. Projects
+Edit `src/data/projects.ts`. Add your projects following the `Project` type structure.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3. Blog Posts
+Add new `.mdx` files to `src/content/blog/`. Ensure you include the required frontmatter:
 
-## Deploy on Vercel
+```yaml
+---
+title: "Your Post Title"
+description: "Brief description"
+date: "YYYY-MM-DD"
+category: "Category Name"
+author: "Your Name"
+image: "/optional/image.jpg"
+---
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 4. Training Programs
+Edit `src/data/training.ts`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 Deployment
+
+The easiest way to deploy is to use [Vercel](https://vercel.com/new).
+
+1. Push your code to a GitHub repository.
+2. Import the project on Vercel.
+3. Vercel will automatically detect Next.js and build settings.
+
+### Environment Variables
+
+Add these to your `.env.local` or Vercel Project Settings for analytics:
+
+```
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_GTM_ID=GTM-XXXXXXX
+```
+
+## 🎨 Theme Customization
+
+Colors are defined in `src/app/globals.css` using Tailwind v4 theme variables.
+
+- Primary (Gold): `#D4AF37`
+- Background (Black): `#000000`
+
+## 📄 License
+
+This project is for personal use.

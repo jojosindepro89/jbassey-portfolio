@@ -1,0 +1,44 @@
+---
+title: "Getting Started with Next.js App Router"
+description: "A comprehensive guide to building modern web applications with Next.js 13+ App Router."
+date: "2024-03-15"
+category: "Web Development"
+author: "Joseph Bassey"
+image: "/images/blog/nextjs.jpg"
+---
+
+Next.js has revolutionized the way we build React applications. With the introduction of the App Router, we now have a more powerful and intuitive way to handle routing, data fetching, and rendering.
+
+## Why App Router?
+
+The App Router is built on top of React Server Components (RSC), which allows us to render components on the server by default. This leads to:
+
+- **Better Performance**: Smaller client-side bundles.
+- **Improved SEO**: Server-side rendering out of the box.
+- **Simplified Data Fetching**: Fetch data directly in your components.
+
+### Folder Structure
+
+The new routing system uses a file-system based router where folders define routes.
+
+```tsx
+// app/page.tsx
+export default function Home() {
+  return <h1>Hello, Next.js!</h1>
+}
+```
+
+## Creating Dynamic Routes
+
+Dynamic routes are created by wrapping a folder name in square brackets: `[slug]`.
+
+```tsx
+// app/blog/[slug]/page.tsx
+export default function BlogPost({ params }: { params: { slug: string } }) {
+  return <div>Post: {params.slug}</div>
+}
+```
+
+## Conclusion
+
+The App Router is a game-changer for React developers. It simplifies complex patterns and improves performance by default.
