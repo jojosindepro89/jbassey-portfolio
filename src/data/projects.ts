@@ -16,13 +16,13 @@ export const projects: Project[] = [
     // Web Development Projects
     {
         id: "web-1",
-        title: "Chigozie Media House",
+        title: "cmhsports",
         description: "Bet prediction site with premium sports news.",
         category: "Web Development",
         subCategory: "Web App",
         techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Supabase"],
-        links: { demo: "https://www.chigoziemediahouse.com/" },
-        image: "/images/chigozie.png",
+        links: { demo: "https://www.cmhsports.site/" },
+        image: "/images/cmhsports.png",
     },
     {
         id: "web-2",
