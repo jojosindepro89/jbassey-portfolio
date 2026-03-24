@@ -56,13 +56,13 @@ export function AboutSection() {
                         </p>
                         <div className="text-zinc-300 space-y-4">
                             <p className="font-bold text-[#D4AF37]">
-                                I bridge the gap between development and growth.
+                                I bridge the gap between development and growth marketing.
                             </p>
                             <p>
-                                I build high-performance web applications that are fast, scalable, and conversion-focused. Beyond writing clean, efficient code, I design digital systems that attract users, engage them, and turn them into loyal customers.
+                                I build high-performance web applications that are fast, scalable, and conversion-focused. Beyond writing clean code, I design digital systems that attract users through SEO, engage them with targeted marketing, and turn them into loyal customers using data-driven strategies.
                             </p>
                             <p>
-                                My approach is simple: solve real problems with practical solutions. Whether it’s optimizing a website for speed, improving user experience, or building a growth-driven marketing strategy, I combine technical expertise with business thinking to deliver measurable results.
+                                My digital marketing expertise spans performance advertising, content strategy, and aggressive SEO optimization. I combine this with technical development to build growth engines that don't just look good but deliver measurable business results.
                             </p>
                             <p>
                                 And as an instructor, I pass these real-world principles to the next generation of tech talent — teaching not just theory, but execution.

@@ -29,13 +29,13 @@ export function Hero() {
                 </div>
 
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-tight">
-                    Full-Stack Web Developer <br className="hidden md:block" />
-                    <span className="text-zinc-500">Growth Marketer • Tech Educator</span>
+                    Full-Stack Developer <br className="hidden md:block" />
+                    <span className="text-[#D4AF37]">Digital Marketing Strategist</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto">
-                    I engineer fast, scalable web applications and design growth systems that deliver real results.
-                    Committed to building products that perform — and people who excel.
+                    I engineer fast, scalable web applications and design data-driven digital marketing strategies that deliver real growth.
+                    Committed to building systems that attract, engage, and convert.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
