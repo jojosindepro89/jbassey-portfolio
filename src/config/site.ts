@@ -5,7 +5,7 @@ export const siteConfig = {
     ogImage: "https://josephbassey.com/og.jpg",
     links: {
         twitter: "https://twitter.com/josephbassey",
-        github: "https://github.com/josephbassey",
+        github: "https://github.com/jojosindepro89/jbassey-portfolio",
         linkedin: "https://linkedin.com/in/josephbassey",
     },
     navItems: [

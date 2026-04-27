@@ -6,7 +6,8 @@ import {
     Database,
     Layout,
     Server,
-    Globe
+    Globe,
+    Cloud
 } from "lucide-react";
 
 export const skills = [
@@ -17,5 +18,6 @@ export const skills = [
     { name: "Backend Systems", icon: Database },
     { name: "UI/UX Design", icon: Layout },
     { name: "DevOps", icon: Server },
+    { name: "Microsoft Azure", icon: Cloud },
     { name: "SEO", icon: Globe },
 ];
